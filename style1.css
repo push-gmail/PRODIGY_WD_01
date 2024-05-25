@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.scroll-container {
+    height: 1000px;
+    overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.headings {
+    width: 50%;
+    margin: auto;
+    margin-top: 23px;
+    margin-right: 50px;
+}
+
+.headings h1 {
+    font-size: 70px;
+    color: yellow;
+    margin-left: -70px;
+}
+
+.headings strong {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 500px;
+    margin-left: 43px;
+    margin-right: 50px;
+    margin-top: 12px;
+    border: 2px solid;
+    border-radius: 20px 25px 15px;
+    box-shadow: 5px 5px green;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 34px;
+}
+
+.image img {
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 15px 15px 15px;
+    box-shadow: 3px 3px blue;
+    transition: 2s;
+}
+
+.category-heading {
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 20px;
+}
+
+.image-sherwanis {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 34px;
+}
+
+.image-sherwanis img {
+    width: 300px;
+    height: 500px;
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 15px 15px 15px;
+    box-shadow: 3px 3px yellow;
+}
